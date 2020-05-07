@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-goober",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "APP_ENV=development next",
+    "build": "next build && next export -o build",
+    "start": "NODE_ENV=production next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjanssen/nextjs-goober.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjanssen/nextjs-goober/issues"
+  },
+  "homepage": "https://github.com/mjanssen/nextjs-goober#readme",
+  "dependencies": {
+    "@domparty/fe": "0.0.80",
+    "goober": "^1.8.0",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
